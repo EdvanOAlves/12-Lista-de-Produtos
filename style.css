@@ -40,12 +40,12 @@ main{
     place-content: center;
     background-color: rgb(255, 82, 0);
 }
-.container{
+#container{
     max-width: 98rem;
     background-color: rgb(250, 250, 250);
 }
 
-.carrossel{
+#carrossel{
     display: flex;
     flex-direction: row;
     gap: 5px;
