@@ -21,7 +21,7 @@ function criarCard(srcProduto){
 
     //Importando conteudo
 
-    categoryLabel.textContent = `QUINZENA GAMER`
+    categoryLabel.textContent = srcProduto.categoria.toUpperCase()
     productImg.src = `./img/${srcProduto.imagem}`
     productName.textContent = srcProduto.nome
     productPrice.textContent = `R$${srcProduto.preco}`
