@@ -19,6 +19,7 @@ function criarCard(srcProduto){
     tagRating.classList.add('tag-rating')
     categoryLabel.classList.add('category-label')
     ratingDiv.classList.add('rating')
+    productImg.classList.add('product-image')
     productName.classList.add('product-name')
     productPrice.classList.add('product-price')
     priceParcela.classList.add('price-parcela')
