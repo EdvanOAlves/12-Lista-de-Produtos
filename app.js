@@ -49,11 +49,11 @@ function loadStars(classificacao, ratingDiv){
     for (let i = 0 ; i <5 ; i++){
         const imgStar = document.createElement('img')
         if (classificacao >=1){
-            imgStar.src = `./imgLayout/star-filled.png`
+            imgStar.src = `./imgLayout/star-solid-full.svg`
             classificacao--
         }
         else{
-            imgStar.src = `./imgLayout/star-stroke.png`
+            imgStar.src = `./imgLayout/star-regular-full.svg`
         }
             ratingDiv.appendChild(imgStar)
     }
