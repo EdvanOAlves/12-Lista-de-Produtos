@@ -120,6 +120,11 @@ main{
 
 }
 
+.tag-rating{
+    display: flex;
+    justify-content: space-between;
+}
+
 .category-label{
     display: inline-block;
     font-size: 0.7rem;
@@ -131,7 +136,17 @@ main{
     text-align: center;
 }
 
-.product-card img{
+.rating{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+}
+
+.rating img{
+    width: 15px;
+}
+
+.product-image{
     height: 10.125rem;
     width: 182px;
     height: 162px;
